@@ -1,0 +1,160 @@
+.side-explore,
+.side-explore * {
+  box-sizing: border-box;
+}
+
+.side-explore {
+  height: 100vh;
+}
+
+.side-explore-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.389vw;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.search- {
+  background: var(--bg2, rgba(50, 50, 50, 0.5));
+  border-radius: 0.977vw;
+  margin-top: 1.67vh;
+  padding: 15.86px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.932vw;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 4.102vw;
+  position: relative;
+}
+
+.search-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.search-in-community {
+  color: #b3b3b3;
+  background-color: transparent;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  font: 500 1.2vw "Plus Jakarta Sans";
+  position: relative;
+}
+
+.search-in-community:focus {
+  border: 0vw;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.771vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.category-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.613vw;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.category {
+  background: #1a1919;
+  border-radius: 12px;
+  padding: 1.827vh 1.136vw 1.827vh 1.136vw;
+  display: flex;
+  flex-direction: row;
+  gap: 9.31px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.category-text {
+  color: #ffffff;
+  text-align: left;
+  font: 500 17.45px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.category::selection {
+  background: #1ca1f1;
+  border-radius: 10vw;
+  padding: 0.689vw 0.965vw 0.689vw 0.965vw;
+  display: flex;
+  flex-direction: row;
+  gap: 0.843vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.explore {
+  color: #ffffff;
+  text-align: left;
+  font: 600 17.45px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.chip {
+  background: #1c1c1c;
+  border-radius: 10vw;
+  padding: 0.689vw 0.843vw 0.689vw 0.843vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.chip-text {
+  color: #ffffff;
+  text-align: left;
+  font: 500 17.45px "Plus Jakarta Sans";
+  position: relative;
+}
+
+@media (min-width: 375px) {
+  .category {
+    padding: 12.59px 10.59px;
+  }
+  .category-text {
+    color: #ffffff;
+    text-align: left;
+    font: 500 14.45px "Plus Jakarta Sans";
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .search-in-community {
+    font: 500 1.2vw "Plus Jakarta Sans";
+  }
+  .category {
+    padding: 1vw 1vw;
+  }
+  .category-text {
+    color: #ffffff;
+    text-align: left;
+    font: 500 1vw "Plus Jakarta Sans";
+    position: relative;
+  }
+}
+@media (min-width: 1280px) {
+}

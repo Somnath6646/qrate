@@ -1,0 +1,227 @@
+.sidesettings,
+.sidesettings * {
+	box-sizing: border-box;
+}
+
+.sidesettings {
+	height: 100vh;
+	border: 1px solid #1b1b1b;
+	padding: 25px;
+}
+
+.settings-container {
+	position: sticky;
+	display: flex;
+	flex-direction: column;
+	gap: 41.46px;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+
+}
+
+.settings-title-text {
+	color: #ffffff;
+	text-align: left;
+	font: 600 20.68px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.change-visibility-section {
+	display: flex;
+	flex-direction: column;
+	gap: 8.62px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	width: 100%;
+	position: relative;
+}
+
+.change-visibility-main-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	align-self: stretch;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.settings-title {
+	color: #ffffff;
+	text-align: left;
+	font: 600 17.79px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.settings-dialog {
+	background: #161616;
+	border-radius: 10.52px;
+	padding: 12.62px 15.78px 12.62px 15.78px;
+	display: flex;
+	flex-direction: column;
+	gap: 10.52px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.settings-dialog-content {
+	display: flex;
+	flex-direction: row;
+	gap: 14.73px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.settings-dialog-text {
+	color: #ffffff;
+	text-align: left;
+	font: 600 14.13px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.arrow-down-icon {
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.settings-description {
+	color: #6c6c6c;
+	text-align: left;
+	font: 400 13.05px/19.5px "Plus Jakarta Sans";
+	position: relative;
+	letter-spacing: 0.6px;
+	align-self: stretch;
+}
+
+.change-tags-section {
+	display: flex;
+	flex-direction: column;
+	gap: 27.64px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+	width: 100%;
+}
+
+.change-tags-title {
+	color: #ffffff;
+	text-align: left;
+	font: 600 18.3px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.tags-list {
+	display: flex;
+	flex-direction: column;
+	gap: 11.85px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.tags-row {
+	display: flex;
+	flex-direction: row;
+	gap: 9.42px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.tag {
+	background: #1a1919;
+	border-radius: 12px;
+	padding: 13.96px 17.45px 13.96px 17.45px;
+	display: flex;
+	flex-direction: row;
+	gap: 9.31px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.tag-text {
+	color: #ffffff;
+	text-align: left;
+	font: 500 14.29px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.cross-icon {
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+	cursor: pointer;
+}
+
+.cross-icon2 {
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.cross-icon3 {
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.cross-icon4 {
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.add-tag-button {
+	background: #1a1919;
+	border-radius: 12px;
+	padding: 13.96px 17.45px 13.96px 17.45px;
+	display: flex;
+	flex-direction: row;
+	gap: 9.31px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.icon-add {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.close-dialog-button {
+	background: var(--bg2, rgba(50, 50, 50, 0.5));
+	border-radius: 11.9px;
+	padding: 15px 20px 15px 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.close-dialog-text {
+	color: #ffffff;
+	text-align: left;
+	font: 600 14.28px "Plus Jakarta Sans";
+	position: relative;
+}

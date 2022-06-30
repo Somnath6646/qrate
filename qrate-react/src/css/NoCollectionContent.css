@@ -1,0 +1,71 @@
+.no-collection-content,
+.no-collection-content * {
+  box-sizing: border-box;
+}
+
+.no-collection-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.116vh;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.no-collection-title-text-container {
+  padding: 12.82px 19.23px 12.82px 19.23px;
+  display: flex;
+  flex-direction: row;
+  gap: 12.82px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.no-collection-title-text {
+  color: #fffcfc;
+  text-align: left;
+  font: 500 6.437vw/9.685vw "Plus Jakarta Sans";
+  position: relative;
+  width: 100%;
+}
+
+.no-collection-description-text {
+  color: #393939;
+  text-align: left;
+  font: 500 4.131vw/6.219vw "Plus Jakarta Sans";
+  position: relative;
+  flex: 1;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .no-collection-content {
+  }
+
+  .no-collection-description-text {
+    font: 500 1.249vw/1.873vw "Plus Jakarta Sans";
+  }
+  .no-collection-title-text-container {
+    padding: 1.678vh 1.252vw;
+  }
+
+  .no-collection-title-text {
+    font: 500 1.945vw/2.918vw "Plus Jakarta Sans";
+  }
+}
+
+@media (min-width: 540px) {
+  .no-collection-content {
+  }
+
+  .no-collection-description-text {
+    font: 500 19.18px/28.77px "Plus Jakarta Sans";
+  }
+  .no-collection-title-text-container {
+  }
+
+  .no-collection-title-text {
+    font: 500 29.88px/44.82px "Plus Jakarta Sans";
+  }
+}

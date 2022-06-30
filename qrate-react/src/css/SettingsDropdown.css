@@ -1,0 +1,57 @@
+.option-container,
+.option-container * {
+  box-sizing: border-box;
+}
+
+.option-container {
+  z-index: 75;
+  background: #191919;
+  border-radius: 18.88px;
+  padding: 25.17px 18.88px 25.17px 18.88px;
+  display: flex;
+  flex-direction: column;
+  gap: 16.36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 315px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.collection-name-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.option-container2 {
+  border: solid #2c2c2c;
+  border-width: 0px 0px 1px 0px;
+  padding: 10.9px 10.9px 10.9px 10.9px;
+  display: flex;
+  flex-direction: column;
+  gap: 10.9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 35.03px;
+  position: relative;
+  cursor: pointer;
+}
+
+.option-text {
+  color: #e1e1e1;
+  text-align: left;
+  font: 500 15.26px/10px "Plus Jakarta Sans";
+  position: relative;
+}

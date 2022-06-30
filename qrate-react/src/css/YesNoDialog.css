@@ -1,0 +1,107 @@
+delete-tag-dialog-container,
+.delete-tag-dialog-container * {
+  box-sizing: border-box;
+}
+
+.delete-tag-dialog-container {
+  background: #191919;
+  border-radius: 18.88px;
+  padding: 25.17px 18.88px 25.17px 18.88px;
+  display: flex;
+  flex-direction: column;
+  gap: 16.36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 315px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.delete-tag-dialog-content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 12px 12px 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  z-index: inherit;
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22.66px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.delete-dialog-title-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 19.64px "Plus Jakarta Sans";
+  position: relative;
+  align-self: stretch;
+}
+
+.action-button-containers {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.no-button {
+  border-radius: 15.1px;
+  padding: 12.59px 12.59px 12.59px 12.59px;
+  display: flex;
+  flex-direction: row;
+  gap: 12.59px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 55.38px;
+  position: relative;
+  cursor: pointer;
+}
+
+.no-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 17.62px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.yes-button {
+  background: #1d91d7;
+  border-radius: 15.1px;
+  padding: 12.59px 12.59px 12.59px 12.59px;
+  display: flex;
+  flex-direction: row;
+  gap: 12.59px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 55.38px;
+  position: relative;
+  cursor: pointer;
+}
+
+.yes-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 17.62px "Plus Jakarta Sans";
+  position: relative;
+}

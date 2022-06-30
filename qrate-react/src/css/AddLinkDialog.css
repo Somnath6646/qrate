@@ -1,0 +1,377 @@
+.dialog-container,
+.dialog-container * {
+  box-sizing: border-box;
+}
+
+.dialog-container {
+  background: #1b1b1b;
+  border-radius: 20px;
+  padding: 33.5px 36px 33.5px 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 540px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.dialog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 17.51px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+
+.select-a-collection-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.select-collection-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.select-a-collection-title {
+  color: #ffffff;
+  text-align: left;
+  font: 600 17.53px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.input-and-option-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.name-input {
+  background: #202020;
+  border-radius: 11.06px;
+  padding: 13.83px 13.83px 13.83px 13.83px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  color: #b9b9b9;
+  text-align: left;
+  border: 1px solid orange;
+  font: 500 15.53px "Plus Jakarta Sans";
+  border: none;
+  outline: none;
+}
+
+.name-input:focus {
+  color: white;
+  outline: none;
+}
+
+.name-input::placeholder {
+  color: #b9b9b9;
+}
+
+/* .type-collection-name-to-search {
+ 
+} */
+
+.option-container {
+  background: #202020;
+  border-radius: 9.22px;
+  padding: 8.22px 9.22px 0 9.22px;
+  display: block;
+  gap: 12.91px;
+  width: 100%;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.collection-name-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  max-height: 180px;
+  overflow-y: scroll;
+  padding: 8.22px 9.22px 12.22px 9.22px;
+  border-radius: 9.22px;
+  background: #202020;
+}
+
+.collection-name-list::-webkit-scrollbar {
+  width: 0.65em;
+}
+
+.collection-name-list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.collection-name-list::-webkit-scrollbar-thumb {
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+}
+
+.namecontainer {
+  border: solid #353535;
+  border-width: 0px 0px 1px 0px;
+  padding: 10.9px 10.9px 10.9px 10.9px;
+  display: flex;
+  flex-direction: column;
+  gap: 10.9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 100%;
+  height: 49.39px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dialog-collection-name-text {
+  color: #e1e1e1;
+  text-align: left;
+  font: 500 15.96px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.icon_container {
+  flex-shrink: 0;
+  width: 14.37px;
+  height: 14.37px;
+  position: static;
+}
+
+.resize-icon {
+  position: absolute;
+  left: 444.41px;
+  top: 173.08px;
+  overflow: visible;
+}
+
+.or-divider {
+  display: flex;
+  flex-direction: row;
+  gap: 3.73px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.or {
+  color: #afafaf;
+  text-align: left;
+  font: 200 15.61px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.create-collection-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.create-collection-main {
+  display: flex;
+  flex-direction: column;
+  gap: 18.29px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.create-collection-title {
+  color: #ffffff;
+  text-align: left;
+  font: 600 17.21px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.input-and-save-container {
+  display: flex;
+  flex-direction: row;
+  gap: 23.67px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.name-input2 {
+  background: #202020;
+  border-radius: 11.06px;
+  padding: 13.83px 13.83px 13.83px 13.83px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  position: relative;
+  color: #b9b9b9;
+  text-align: left;
+  border: 1px solid orange;
+  font: 500 15.53px "Plus Jakarta Sans";
+  border: none;
+  outline: none;
+}
+
+.type-a-name-to-create-collection {
+  color: #b9b9b9;
+  text-align: left;
+  font: 500 15.06px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.save-button-dialog {
+  flex-shrink: 0;
+  width: 22.59px;
+  height: 22.59px;
+  position: relative;
+  cursor: pointer;
+}
+
+.save-1-dialog {
+  overflow: visible;
+}
+
+.or-section {
+  display: flex;
+  flex-direction: row;
+  gap: 3.69px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.or2 {
+  color: #afafaf;
+  text-align: left;
+  font: 200 15.78px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.save-directly-button {
+  background: #1ca1f1;
+  border-radius: 10.92px;
+  padding: 10.92px 15.29px 10.92px 15.29px;
+  display: flex;
+  flex-direction: column;
+  gap: 10.92px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 63px;
+  position: relative;
+  cursor: pointer;
+}
+
+.save-directly-content {
+  display: flex;
+  flex-direction: row;
+  gap: 14.19px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.icon-dialog {
+  flex-shrink: 0;
+  width: 22.93px;
+  height: 22.93px;
+  position: static;
+}
+
+.save-12 {
+  position: absolute;
+  left: 0px;
+  top: 0.03px;
+  overflow: visible;
+}
+
+.save-directly-button-text {
+  color: #ffffff;
+  text-align: left;
+  font: 700 17.94px "Plus Jakarta Sans";
+  position: relative;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 375px) {
+  .input-and-save-container {
+    gap: 12.67px;
+  }
+  .dialog-container {
+    width: 85%;
+    padding: 22.5px 18px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .input-and-save-container {
+    gap: 23.67px;
+  }
+  .dialog-container {
+    width: 540px;
+    padding: 33.5px 36px 33.5px 36px;
+  }
+}
+@media (min-width: 1280px) {
+}

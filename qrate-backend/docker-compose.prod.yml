@@ -1,0 +1,24 @@
+version: "3.3"
+services:
+  nginx:
+    ports:
+      - "8000:80"
+  qrate-backend:
+    build:
+      context: .
+      args:
+        NODE_ENV: production
+    deploy:
+      replicas: 8
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 10
+        window: 120s
+      update_config:
+        parallelism: 2
+        delay: 15s
+        failure_action: rollback
+    environment:
+      - NODE_ENV=production
+    command: node app.js

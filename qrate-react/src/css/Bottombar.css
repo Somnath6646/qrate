@@ -1,0 +1,175 @@
+.bottombar,
+.bottombar * {
+  box-sizing: border-box;
+}
+
+.bottombar {
+  background: #161616;
+  padding: 10px 18px 17px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  height: 83px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+.selected-text {
+  color: white;
+}
+
+.bottombar-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  flex-shrink: 0;
+  height: 44.24px;
+  position: relative;
+}
+
+.bottombar-home {
+  padding: 12.28px 36.83px 12.28px 36.83px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.21px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  position: relative;
+  cursor: pointer;
+}
+
+.bottombar-selected {
+  background: #222222;
+  border-radius: 11.51px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.21px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  position: relative;
+  width: 102px;
+}
+
+.bottombar-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  width: 12px;
+  height: 14px;
+}
+
+.bottombar-home-text {
+  color: #b3b3b3;
+  text-align: left;
+  font: 600 13.81px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.bottombar-home-text-selected {
+  color: white;
+  text-align: left;
+  font: 600 13.81px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.bottombar-explore-text-selected {
+  color: white;
+  text-align: left;
+  font: 600 13.81px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.bottombar-profile-text-selected {
+  color: white;
+  text-align: left;
+  font: 600 13.81px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.bottombar-explore {
+  padding: 12.28px 36.83px 12.28px 36.83px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.21px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.bottombar-icon2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  width: 15.35px;
+  height: 15.35px;
+}
+
+.bottombar-explore-text {
+  color: #b3b3b3;
+  text-align: left;
+  font: 600 13.81px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.bottombar-profile {
+  padding: 12.28px 36.83px 12.28px 36.83px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.21px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.bottombar-icon3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+  width: 15.35px;
+  height: 16.81px;
+}
+
+.bottombar-profile-text {
+  color: #b3b3b3;
+  text-align: left;
+  font: 600 13.81px "Plus Jakarta Sans";
+  position: relative;
+}
+
+@media (min-width: 375px) {
+  .bottombar-selected {
+    padding: 6.28px 18.83px 6.28px 18.83px;
+  }
+  .bottombar-home {
+    padding: 6.28px 18.83px 6.28px 18.83px;
+  }
+  .bottombar-explore {
+    padding: 6.28px 18.83px 6.28px 18.83px;
+  }
+  .bottombar-profile {
+    padding: 6.28px 18.83px 6.28px 18.83px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bottombar-selected {
+    padding: 12.28px 36.83px 12.28px 36.83px;
+  }
+}
+@media (min-width: 1024px) {
+  .bottombar {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+}

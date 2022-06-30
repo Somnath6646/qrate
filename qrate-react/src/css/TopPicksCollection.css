@@ -1,0 +1,375 @@
+.toppicks-container {
+  display: flex;
+  width: 100%;
+  max-height: 58vh;
+  overflow-y: scroll;
+}
+
+.toppicks-container::-webkit-scrollbar {
+  width: 0.35em;
+}
+
+.toppicks-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.toppicks-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.toppicks-collection,
+.toppicks-collection * {
+  box-sizing: border-box;
+}
+
+.toppicks-collection {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 4vh;
+}
+.toppicks-data {
+  display: flex;
+  flex-direction: column;
+  gap: 7.34px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.favicon {
+  border-radius: 25%;
+  padding: 0px;
+  margin: 0px 4px 0px 0px;
+}
+
+.toppicks-overlinetext {
+  color: #bababa;
+  text-align: left;
+  font: 500 11.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.toppicks-title {
+  color: #ffffff;
+  text-align: left;
+  font: 700 17.13px/29.36px "Plus Jakarta Sans";
+  position: relative;
+  align-self: stretch;
+  display: -webkit-box;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.toppicks-description,
+.toppicks-description * {
+  box-sizing: border-box;
+}
+
+.toppicks-description {
+  color: #6d6d6d;
+  text-align: left;
+  font: 400 14.8px/24.97px "Plus Jakarta Sans";
+  position: relative;
+  letter-spacing: 0.6px;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.toppicks-totalitemcount {
+  display: flex;
+  flex-direction: row;
+  gap: 12.23px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.toppicks-collection-chip {
+  background: rgba(51, 51, 51, 0.404);
+  border-radius: 8px;
+  padding: 6px 9px;
+  display: flex;
+  flex-direction: row;
+  gap: 14.47px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.toppicks-count-text {
+  color: #a48bfd;
+  text-align: left;
+  font: 400 12.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+}
+
+.toppicks-author-time-chip {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 14.47px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.toppicks-author-time-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #bababa;
+  text-align: center;
+  font: 400 12.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+}
+
+.mediumarticle-bottom {
+  color: #bababa;
+  text-align: left;
+  font: 400 12.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+}
+
+.toppicks-count-text a {
+  text-decoration: none;
+}
+.toppicks-image-2 {
+  border-radius: 10.43px;
+  flex-shrink: 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.toppicks-dropdown,
+.toppicks-dropdown * {
+  box-sizing: border-box;
+}
+
+.toppicks-dropdown {
+  margin-bottom: 30px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  cursor: pointer;
+}
+
+.toppicks-dropdown-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.toppicks-collection-name-text {
+  color: #ffffff;
+  text-align: left;
+  font: 700 20px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.toppicks-section-title {
+  color: #999999;
+  text-align: left;
+  font: 600 18px "Plus Jakarta Sans";
+  letter-spacing: 1.1px;
+  position: relative;
+  font-variant-caps: all-petite-caps;
+}
+
+.icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+@media (min-width: 375px) {
+  .toppicks-author-time-text {
+    font: 400 10.91px "Plus Jakarta Sans";
+  }
+
+  .toppicks-overlinetext {
+    font-size: 12.99px;
+  }
+
+  .toppicks-title {
+    font: 700 13.99px/25.36px "Plus Jakarta Sans";
+  }
+
+  .toppicksdropdown-text {
+    font: 600 12px "Plus Jakarta Sans";
+  }
+
+  .toppicks-count-text {
+    font: 400 10.91px "Plus Jakarta Sans";
+  }
+
+  .toppicks-description {
+    font: 400 13px/20.97px "Plus Jakarta Sans";
+  }
+
+  .toppicks-data {
+    flex-grow: 0;
+  }
+
+  .toppicks-image-2 {
+    border-radius: 14.43px;
+    flex-shrink: 0;
+    width: 100.33px;
+    height: 80.83px;
+    position: relative;
+  }
+
+  .toppicks-collection {
+    gap: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 640px) {
+  .toppicks-overlinetext {
+    font-size: 13.5px;
+    margin-bottom: 0px;
+  }
+
+  .toppicks-title {
+    font: 700 14.99px/26.36px "Plus Jakarta Sans";
+  }
+
+  .toppicks-dropdown-text {
+    font: 600 13px "Plus Jakarta Sans";
+  }
+
+  .toppicks-count-text {
+    font: 400 11.91px "Plus Jakarta Sans";
+  }
+
+  .toppicks-description {
+    font: 400 13px/20.97px "Plus Jakarta Sans";
+  }
+  .toppicks-dropdown {
+  }
+}
+
+@media (min-width: 768px) {
+  .toppicks-author-time-chip {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 14.47px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .toppicks-author-time-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #bababa;
+    text-align: center;
+    font: 400 12.91px "Plus Jakarta Sans";
+    position: relative;
+    text-decoration: none;
+  }
+
+  .toppicks-title {
+    font: 700 15.99px/28px "Plus Jakarta Sans";
+  }
+
+  .toppicks-dropdown-text {
+    font: 600 13px "Plus Jakarta Sans";
+  }
+
+  .toppicks-count-text {
+    font: 400 11.91px "Plus Jakarta Sans";
+  }
+
+  .toppicks-description {
+    font: 400 14px/20.97px "Plus Jakarta Sans";
+  }
+}
+@media (min-width: 1024px) {
+  .toppicks-overlinetext {
+    font-size: 10.99px;
+  }
+
+  .toppicks-title {
+    font: 700 1.115vw/1.914vw "Plus Jakarta Sans";
+  }
+
+  .toppicks-dropdown-text {
+    font: 600 13px "Plus Jakarta Sans";
+  }
+
+  .toppicks-count-text {
+    font: 400 11.91px "Plus Jakarta Sans";
+  }
+
+  .toppicks-description {
+    font: 400 1.036vw/22.97px "Plus Jakarta Sans";
+  }
+}
+@media (min-width: 1280px) {
+  .toppicks-collection {
+    gap: 0px;
+    width: 100%;
+  }
+  .toppicks-overlinetext {
+    font-size: 0.9vw;
+  }
+
+  .toppicks-title {
+    font: 700 1vw/1.914vw "Plus Jakarta Sans";
+  }
+
+  .toppicks-dropdown-text {
+    font: 600 13px "Plus Jakarta Sans";
+  }
+
+  .toppicks-count-text {
+    font: 400 0.9vw/22.97px "Plus Jakarta Sans";
+  }
+
+  .toppicks-description {
+    font: 400 12px/22.97px "Plus Jakarta Sans";
+  }
+  .toppicks-data {
+    flex-grow: 1;
+  }
+}

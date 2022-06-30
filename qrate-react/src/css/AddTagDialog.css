@@ -1,0 +1,89 @@
+.add-tag-dialog-container,
+.add-tag-dialog-container * {
+	box-sizing: border-box;
+}
+
+.add-tag-dialog-container {
+	background: #191919;
+	border-radius: 18.88px;
+	padding: 25.17px 18.88px 25.17px 18.88px;
+	display: flex;
+	flex-direction: column;
+	gap: 16.36px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 315px;
+	position: relative;
+}
+
+.add-tag-dialog-content {
+	display: flex;
+	flex-direction: column;
+	gap: 35.24px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	align-self: stretch;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.upper-container {
+	display: flex;
+	flex-direction: column;
+	gap: 22.66px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	align-self: stretch;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.add-tags {
+	color: #ffffff;
+	text-align: left;
+	font: 600 19.64px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.taginput {
+	border: solid #313131;
+	border-width: 0px 0px 1.26px 0px;
+	padding: 12.59px 0px 12.59px 12.59px;
+	display: flex;
+	flex-direction: row;
+	gap: 12.59px;
+	align-items: center;
+	justify-content: flex-start;
+	align-self: stretch;
+	flex-shrink: 0;
+	height: 55.38px;
+	background-color: transparent;
+	position: relative;
+	color: #ffffff;
+	text-align: left;
+	font: 500 17.62px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.done-button {
+	background: #1ca1f1;
+	border-radius: 14px;
+	padding: 12.59px 12.59px 12.59px 12.59px;
+	display: flex;
+	flex-direction: row;
+	gap: 12.59px;
+	align-items: center;
+	justify-content: center;
+	align-self: stretch;
+	flex-shrink: 0;
+	height: 55.38px;
+	position: relative;
+	cursor: pointer;
+}
+
+.done {
+	color: #ffffff;
+	text-align: left;
+	font: 600 17.62px "Plus Jakarta Sans";
+	position: relative;
+}

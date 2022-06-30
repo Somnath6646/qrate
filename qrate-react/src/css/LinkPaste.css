@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.font {
+  font: "Plus Jakarta Sans";
+}
+
+.saverheader,
+.saverheader * {
+  box-sizing: border-box;
+}
+
+.saverheader {
+  padding-top: 2%;
+  padding-left: 12.8%;
+  padding-right: 38.5%;
+  z-index: 50;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+  height: 8.246vh;
+}
+
+.linkinput {
+  background: var(--bg2, rgb(27, 27, 27));
+  border-radius: 1.683vh;
+  padding: 15.86px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.688vw;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  margin-right: 1.628vw;
+  position: relative;
+  width: 100%;
+  color: #b3b3b3;
+  text-align: left;
+  font: 500 16px "Plus Jakarta Sans";
+  border-style: none;
+  border-width: 0vw;
+}
+
+input {
+  border-width: 0vw;
+}
+
+input:focus {
+  outline: none !important;
+  color: white;
+}
+
+.saving-button {
+  background: var(--primary, #1ca1f1);
+  border-radius: 1.516vh;
+  padding: 1.895vh 1.131vw 1.895vh 1.131vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.group-2 {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  min-width: 22.59px;
+  position: static;
+}
+
+@media (min-width: 375px) {
+  .linkinput {
+    padding: 8px 10.86px;
+  }
+
+  .group-2 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    min-width: 22.59px;
+    position: static;
+  }
+
+  .saverheader {
+    top: 2%;
+    left: 4.5%;
+    right: 4.85%;
+    z-index: 50;
+    width: 91%;
+    height: 55px;
+  }
+  .saving-button {
+    width: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .linkinput {
+    padding: 15.86px;
+  }
+}
+@media (min-width: 1024px) {
+  .linkinput {
+    font: 500 1.2vw "Plus Jakarta Sans";
+  }
+  .saverheader {
+    top: 2%;
+    left: 12.8%;
+    right: 40.5%;
+    width: 50vw;
+    height: 4.102vw;
+  }
+  .group-2 {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    min-width: 22.59px;
+    position: static;
+  }
+}
+@media (min-width: 1280px) {
+  .saverheader {
+    top: 2%;
+    left: 14%;
+    right: 39.5%;
+    width: 50vw;
+    height: 4.102vw;
+  }
+
+  .saving-button {
+    width: 63px;
+  }
+}

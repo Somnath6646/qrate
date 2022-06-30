@@ -1,0 +1,449 @@
+.container-collection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.category-collection-name-text {
+  color: #ffffff;
+  text-align: left;
+  font: 700 28px "Plus Jakarta Sans";
+  position: relative;
+  margin-bottom: 2.094vh;
+}
+
+.container-collection::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.container-collection::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.container-collection::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.collection,
+.collection * {
+  box-sizing: border-box;
+}
+
+.collection {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  text-decoration: none;
+  padding: 3vh;
+  border: solid #1a1a1a;
+  border-width: 0px 0px 0.131vh 0px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 7.34px;
+  width: 30vw;
+  position: relative;
+}
+
+.favicon {
+  border-radius: 25%;
+  padding: 0px;
+  margin: 0px 4px 0px 0px;
+}
+
+.overlinetext {
+  color: #bababa;
+  text-align: left;
+  font: 400 11.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  color: #ffffff;
+  text-align: left;
+  font: 700 17.13px/29.36px "Plus Jakarta Sans";
+  position: relative;
+  align-self: stretch;
+  display: -webkit-box;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.description,
+.description * {
+  box-sizing: border-box;
+}
+
+.description {
+  color: #6d6d6d;
+  text-align: left;
+  font: 400 14.8px/24.97px "Plus Jakarta Sans";
+  position: relative;
+  letter-spacing: 0.6px;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.totalitemcount {
+  display: flex;
+  flex-direction: row;
+  gap: 12.23px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.collection-chip {
+  background: rgba(51, 51, 51, 0.404);
+  border-radius: 8px;
+  padding: 10px 12px 10px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 14.47px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.count-text {
+  color: #a48bfd;
+  text-align: left;
+  font: 400 12.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+}
+
+.author-time-chip {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 14.47px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.author-time-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #bababa;
+  font: 400 12.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+}
+
+.mediumarticle-bottom {
+  color: #bababa;
+  text-align: left;
+  font: 400 12.91px "Plus Jakarta Sans";
+  position: relative;
+  text-decoration: none;
+}
+
+.count-text a {
+  text-decoration: none;
+}
+.image-2 {
+  border-radius: 10.43px;
+  flex-shrink: 0;
+  width: 179.56px;
+  height: 101.43px;
+  position: relative;
+}
+
+.dropdown,
+.dropdown * {
+  box-sizing: border-box;
+}
+
+.dropdown {
+  margin-top: 103px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  padding: 3vh 5vw 0.5vh 4.8vw;
+}
+
+@media (min-width: 1024px) {
+  .dropdown {
+    padding: 4vh 1.3vw 0.5vh 1.3vw;
+  }
+}
+
+.dropdown-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.collection-header {
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  position: relative;
+}
+
+.search-in-collections {
+  background: var(--bg2, rgba(50, 50, 50, 0.5));
+  border-radius: 0.5vw;
+  margin-top: 1.67vh;
+  padding: 5.86px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.932vw;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 2.102vw;
+  position: relative;
+}
+.search-in-collection-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.search-in-collection-text {
+  color: #b3b3b3;
+  background-color: transparent;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  font: 500 0.8vw "Plus Jakarta Sans";
+  position: relative;
+}
+
+.collection-name-text {
+  color: #ffffff;
+  text-align: left;
+  font: 700 20px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+@media (min-width: 375px) {
+  .author-time-text {
+    font: 400 10.91px "Plus Jakarta Sans";
+  }
+
+  .overlinetext {
+    font-size: 12.99px;
+  }
+
+  .title {
+    font: 700 13.99px/25.36px "Plus Jakarta Sans";
+  }
+
+  .dropdown-text {
+    font: 600 12px "Plus Jakarta Sans";
+  }
+
+  .count-text {
+    font: 400 10.91px "Plus Jakarta Sans";
+  }
+
+  .description {
+    font: 400 13px/20.97px "Plus Jakarta Sans";
+  }
+
+  .data {
+    flex-grow: 1;
+  }
+
+  .image-2 {
+    border-radius: 14.43px;
+    flex-shrink: 0;
+    width: 114.33px;
+    height: 82.83px;
+    position: relative;
+    object-fit: cover;
+  }
+
+  .collection {
+    gap: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .dropdown {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 640px) {
+  .overlinetext {
+    font-size: 13.5px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font: 700 14.99px/26.36px "Plus Jakarta Sans";
+  }
+
+  .dropdown-text {
+    font: 600 13px "Plus Jakarta Sans";
+  }
+
+  .count-text {
+    font: 400 11.91px "Plus Jakarta Sans";
+  }
+
+  .description {
+    font: 400 13px/20.97px "Plus Jakarta Sans";
+  }
+  .dropdown {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .author-time-chip {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 14.47px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .author-time-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #bababa;
+    text-align: center;
+    font: 400 12.91px "Plus Jakarta Sans";
+    position: relative;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    margin-top: 90px;
+  }
+  .title {
+    font: 700 15.99px/28px "Plus Jakarta Sans";
+  }
+
+  .dropdown-text {
+    font: 600 13px "Plus Jakarta Sans";
+  }
+
+  .count-text {
+    font: 400 11.91px "Plus Jakarta Sans";
+  }
+
+  .description {
+    font: 400 14px/20.97px "Plus Jakarta Sans";
+  }
+}
+@media (min-width: 1024px) {
+  .container-collection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .overlinetext {
+    font-size: 12.99px;
+  }
+
+  .title {
+    font: 700 16.99/29px "Plus Jakarta Sans";
+  }
+
+  .dropdown-text {
+    font: 600 14px "Plus Jakarta Sans";
+  }
+
+  .count-text {
+    font: 400 12.91px "Plus Jakarta Sans";
+  }
+
+  .description {
+    font: 400 15px/22.97px "Plus Jakarta Sans";
+  }
+}
+@media (min-width: 1280px) {
+  .collection {
+    gap: 0px;
+  }
+  .author-time-text {
+    font: 400 1vw "Plus Jakarta Sans";
+  }
+  .overlinetext {
+    font: 400 1vw "Plus Jakarta Sans";
+  }
+
+  .title {
+    font: 700 1.25vw/1.911vw "Plus Jakarta Sans";
+  }
+
+  .dropdown {
+    margin-top: 10.482vh;
+  }
+
+  .dropdown-text {
+    font: 600 0.977vw "Plus Jakarta Sans";
+  }
+
+  .count-text {
+    font: 400 0.9vw "Plus Jakarta Sans";
+  }
+
+  .description {
+    font: 400 1vw/1.626vw "Plus Jakarta Sans";
+  }
+
+  .data {
+    flex-grow: 0;
+  }
+
+  .image-2 {
+    border-radius: 15px;
+    flex-shrink: 0;
+    width: 140px;
+    height: 101.43px;
+    position: relative;
+    object-fit: cover;
+  }
+}

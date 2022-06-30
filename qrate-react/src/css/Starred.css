@@ -1,0 +1,139 @@
+.profile-content,
+.profile-content * {
+  box-sizing: border-box;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 73px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.profile-image {
+  background: linear-gradient(to left, #ffdc84, #ffdc84);
+  border-radius: 201.37px;
+  flex-shrink: 0;
+  width: 147px;
+  height: 147px;
+  position: relative;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.name-and-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.name-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 22.78px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.bio-text {
+  color: #dbdbdb;
+  text-align: left;
+  font: 500 17.05px "Plus Jakarta Sans";
+  position: relative;
+  width: 350px;
+}
+
+.edit-profile-button {
+  background: var(--bg2, rgba(50, 50, 50, 0.5));
+  border-radius: 11.9px;
+  padding: 15px 20px 15px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 9.52px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.edit-profile-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 14.28px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.stars-section {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.stars-text {
+  color: #ffffff;
+  text-align: left;
+  padding: 6% 0% 4% 6%;
+  border: solid #1d1d1d;
+  border-width: 0px 0px 0.131vh 0px;
+  font: 600 25.4px "Plus Jakarta Sans";
+  position: relative;
+  margin-bottom: 3vh;
+  width: 94%;
+}
+
+.no-collection-in-this-category-text {
+  color: #393939;
+  text-align: left;
+  font: 500 4.131vw/6.219vw "Plus Jakarta Sans";
+  position: relative;
+  flex: 1;
+  padding: 0% 5% 4% 4%;
+}
+
+@media (min-width: 1024px) {
+  .stars-text {
+    color: #ffffff;
+    text-align: left;
+    padding: 2% 0% 2% 2%;
+    font: 600 30.4px "Plus Jakarta Sans";
+    position: relative;
+  }
+  .no-collection-in-this-category-text {
+    padding: 2% 2% 2% 2%;
+    font: 500 1.249vw/1.873vw "Plus Jakarta Sans";
+  }
+}
+
+@media (min-width: 540px) {
+  .no-collection-in-this-category-text {
+    font: 500 19.18px/28.77px "Plus Jakarta Sans";
+  }
+}

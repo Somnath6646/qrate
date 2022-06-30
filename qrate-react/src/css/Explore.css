@@ -1,0 +1,218 @@
+.side-explore,
+.side-explore * {
+  box-sizing: border-box;
+}
+
+.side-explore {
+  margin: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  gap: 58px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  border-style: solid;
+  border-width: 0px 0px 0px 0.5px;
+  border-color: #252525;
+}
+
+.vertical-divider {
+  border: solid #414141;
+  border-width: 0px;
+  flex-shrink: 0;
+  height: 100%;
+  position: fixed;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.search-button {
+  background: var(--primary, #1ca1f1);
+  border-radius: 12.86px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 55px;
+  position: relative;
+  cursor: pointer;
+}
+
+.side-explore-header {
+  display: flex;
+  flex-direction: column;
+  gap: 36.7px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.search-explore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 60px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.search-input {
+  background: var(--bg2, rgb(27, 27, 27));
+  border-radius: 15px;
+  padding: 15.86px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.688vw;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-grow: 1;
+  margin-right: 1.628vw;
+  position: relative;
+  color: #b3b3b3;
+  text-align: left;
+  font: 500 16px "Plus Jakarta Sans";
+  border-style: none;
+  border-width: 0vw;
+}
+
+.search-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.search-in-community {
+  color: #b3b3b3;
+  background-color: transparent;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  font: 500 16.21px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.search-in-community:focus {
+  border: 0px;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10.36px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10.36px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.chip-selected {
+  background: #1ca1f1;
+  border-radius: 10px;
+  padding: 10.59px 14.82px 10.59px 14.82px;
+  display: flex;
+  flex-direction: row;
+  gap: 12.95px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.explore {
+  color: #ffffff;
+  text-align: left;
+  font: 600 15.88px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.chip {
+  background: #1c1c1c;
+  border-radius: 10px;
+  padding: 10.59px 12.95px 10.59px 12.95px;
+  display: flex;
+  flex-direction: row;
+  gap: 12.95px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.chip-text {
+  color: #ffffff;
+  text-align: left;
+  font: 500 15.88px "Plus Jakarta Sans";
+  position: relative;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10.36px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.column-3 {
+  background: #1c1c1c;
+  border-radius: 10px;
+  padding: 10.59px 12.95px 10.59px 12.95px;
+  display: flex;
+  flex-direction: row;
+  gap: 12.95px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+@media (min-width: 375px) {
+  .search-input {
+    padding: 8px 10.86px;
+  }
+
+  .search-button {
+    width: 55px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-input {
+    padding: 15.86px;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+  .search-button {
+    width: 63px;
+  }
+}

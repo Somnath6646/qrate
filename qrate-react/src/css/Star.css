@@ -1,0 +1,35 @@
+.star {
+	background: #161616;
+	border-radius: 10.52px;
+	padding: 10px 12px 10px 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 10.52px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.star-content {
+	display: flex;
+	flex-direction: row;
+	gap: 14.73px;
+	align-items: center;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	position: relative;
+}
+
+.star-text {
+	color: #ffffff;
+	text-align: left;
+	font: 600 14px "Plus Jakarta Sans";
+	position: relative;
+}
+
+.star-icon {
+	flex-shrink: 0;
+	position: relative;
+	overflow: visible;
+}

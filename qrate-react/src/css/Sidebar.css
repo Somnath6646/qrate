@@ -1,0 +1,203 @@
+.sidebar,
+.sidebar * {
+	box-sizing: border-box;
+}
+
+.sidebar {
+	border: solid #1a1a1a;
+	border-width: 0px 1px 0px 1px;
+	margin: 0px;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: max-content;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.sidebarelementcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	flex-shrink: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+.topelements {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-shrink: 0;
+	gap: 5.208vw;
+	position: relative;
+}
+
+.logo {
+	width: 3.32vw;
+	height: 6.545vh;
+	overflow: visible;
+	margin-top: 1.628vw;
+}
+
+.tabs {
+	display: flex;
+	flex-direction: column;
+	gap: 1.693vw;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.home {
+	padding: 1.042vw 3.125vw 1.042vw 3.125vw;
+	display: flex;
+	flex-direction: row;
+	gap: 0.781vw;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 9.44vw;
+	position: relative;
+	cursor: pointer;
+}
+
+.selected {
+	background: var(--bg2, rgba(50, 50, 50, 0.5));
+	border-radius: 0.977vw;
+	padding: 1.042vw 3.125vw 1.042vw 3.125vw;
+	color: #ffffff;
+	text-align: left;
+	font: 700 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.icon3 {
+	overflow: visible;
+	width: 1.042vw;
+	height: 2.487vh;
+}
+
+.home-text {
+	color: #b3b3b3;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.explore {
+	padding: 1.042vw 3.125vw 1.042vw 3.125vw;
+	display: flex;
+	flex-direction: row;
+	gap: 0.781vw;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 9.44vw;
+	position: relative;
+	cursor: pointer;
+}
+
+.icon4 {
+	width: 1.367vw;
+	height: 2.749vh;
+	overflow: visible;
+}
+
+.explore-text {
+	color: #b3b3b3;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.home-text-selected {
+	color: white;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.profile-text-selected {
+	color: white;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.explore-text-selected {
+	color: white;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.profile {
+	padding: 1.042vw 3.125vw 1.042vw 3.125vw;
+	display: flex;
+	flex-direction: row;
+	gap: 0.781vw;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 9.44vw;
+	position: relative;
+	cursor: pointer;
+}
+
+.icon5 {
+	width: 1.367vw;
+	height: 2.749vh;
+	overflow: visible;
+}
+
+.ic-selected {
+	color: white;
+}
+
+.profile-text {
+	color: #b3b3b3;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+	position: relative;
+}
+
+.logoutbutton {
+	padding: 1.042vw 3.125vw 1.042vw 3.125vw;
+	display: flex;
+	flex-direction: row;
+	gap: 0.781vw;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 100%;
+	cursor: pointer;
+	margin-bottom: 1.628vw;
+	position: relative;
+}
+
+.icon6 {
+	width: 1.302vw;
+	height: 2.618vh;
+	overflow: visible;
+}
+
+.log-out {
+	color: #b3b3b3;
+	text-align: left;
+	font: 500 1.172vw "Plus Jakarta Sans";
+}
+
+.verticaldivider {
+	border: solid #414141;
+	border-width: 0px;
+	flex-shrink: 0;
+	height: 100%;
+	position: fixed;
+	transform-origin: 0 0;
+	transform: rotate(90deg) scale(1, 1);
+}
